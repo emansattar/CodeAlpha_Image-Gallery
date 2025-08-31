@@ -80,42 +80,10 @@ input[type="text"]:focus {
   outline: none;
 }
 
-/* Image Styling 
-.imgcontainer img 
-  /* width: 180px;
-  height: auto;
-  margin: 10px;
-  border: 2px solid transparent;
-  border-radius: 8px; 
-  transition: transform 0.3s, border-color 0.3s;
-  cursor: pointer;
-}*/
-/*
-.imgcontainer img:hover {
-  transform: scale(1.05);
-  border-color: #4582c4;
-  transition: transform 0.3s, border-color 0.3s;
-  cursor: pointer;
-}
 /* Zoom effect when hovering over image + caption area */
 .image-wrapper:hover img {
   transform: scale(1.05);
   transition: transform 0.3s ease;
-}
-
-/* Maintain original image style 
-.image-wrapper img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-}
-
-/* Optional: Gallery container 
-.imgcontainer {
-  text-align: center;
-  padding: 20px;
 }
 
 /* Lightbox styles (in case you want to move them to CSS file) */
@@ -150,13 +118,6 @@ input[type="text"]:focus {
   border-radius: 10px; /* Match the image radius */
 }
 
-/* Keep your existing image styling untouched 
-.image-wrapper img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 10px; /* Match wrapper */
-
 
 /* Caption overlay - matches image shape */
 .image-caption {
@@ -188,4 +149,5 @@ input[type="text"]:focus {
   opacity: 1;
   transform: translateY(0);
 }
+
 
